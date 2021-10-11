@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    
+   <!-- Firebase SDK CODE ADD BELOW -->
+   <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+   <script>
+const firebaseConfig = {
+ apiKey: "AIzaSyBXzh1CdH3C4lndrGcNM-F0JSym-PHsl5o",
+ authDomain: "sejal-suri-1.firebaseapp.com",
+ databaseURL: "https://sejal-suri-1-default-rtdb.firebaseio.com",
+ projectId: "sejal-suri-1",
+ storageBucket: "sejal-suri-1.appspot.com",
+ messagingSenderId: "899400173419",
+ appId: "1:899400173419:web:c76de4e12ed7c54cfb6e2e"
+};
+     // Your web app's Firebase configuration
+     //add here
+     // Initialize Firebase
+     firebase.initializeApp(firebaseConfig);
+   </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
